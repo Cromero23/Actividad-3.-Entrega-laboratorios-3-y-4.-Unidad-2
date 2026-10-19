@@ -1,0 +1,31 @@
+
+# Credenciales y secretos
+.env
+.env.*
+!.env.example
+.pgpass
+pgpass.conf
+
+# Claves privadas
+*.key
+*.pem
+*.p12
+*.pfx
+*.p8
+
+# Configuraciones privadas de PostgreSQL
+postgresql.conf
+postgresql.conf.backup
+
+# Archivos temporales
+*.tmp
+*.bak
+*.log
+
+# Archivos del sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Configuracion local del editor
+.vscode/
